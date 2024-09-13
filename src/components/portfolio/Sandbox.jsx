@@ -1,6 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
-import { sandBoxImage } from '@/constants/sandboxImage'
 import Gallery from './Gallery'
 
 const Sandbox = () => {

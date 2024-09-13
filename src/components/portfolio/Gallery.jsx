@@ -13,7 +13,7 @@ const Gallery = () => {
   return (
     <div className='gallery'>
         <div className={model ? "model open" : "model"}>
-            <img src={dialogIimage} alt="image" />
+            <img src={dialogIimage} />
         </div>
 
         {

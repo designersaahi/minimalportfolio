@@ -1,5 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
+import { sandBoxImage } from '@/constants/sandboxImage'
+import Gallery from './Gallery'
 
 const Sandbox = () => {
   return (
@@ -8,7 +10,13 @@ const Sandbox = () => {
         <title>Sandbox | Sahitya Kashyap Portfolio</title>
         <meta name="description" content="Welcome to the portfolio of Sahitya Kashyap." />
       </Helmet>
-      Under Construction</div>
+      <div>
+        <h1  className='text-xl font-sembold text-center'>
+          Collection of Renders, Sketches, CAD & other small projects.
+        </h1>
+        <Gallery/>
+      </div>
+      </div>
   )
 }
 

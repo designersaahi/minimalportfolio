@@ -8,7 +8,7 @@ import image7 from "../assets/project pages/Extra/front 3.png";
 import image8 from "../assets/project pages/Extra/macro.png";
 import image9 from "../assets/project pages/Extra/top.png";
 
-export const sandBoxImage = [
+export const sandboxImage = [
   image1,
   image2,
   image3,

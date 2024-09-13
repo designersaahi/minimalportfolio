@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { sandBoxImage } from "../../constants/sandboxImage";
 import "../../../src/gallery.css";
 import {
   Dialog,
@@ -9,6 +8,7 @@ import {
   DialogTrigger,
 } from "../ui/dialog";
 import { DialogDescription } from "@radix-ui/react-dialog";
+import { sandBoxImages } from "@/constants/sandBoxImages";
 
 const Gallery = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
@@ -25,7 +25,7 @@ const Gallery = () => {
 
   return (
     <div className="gallery my-16">
-      {sandBoxImage.map((image, index) => (
+      {sandBoxImages.map((image, index) => (
         <div className="pics" key={index} onClick={() => getImage(image)}>
           <img src={image} alt="" />
         </div>

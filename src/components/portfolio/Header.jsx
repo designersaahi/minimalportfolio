@@ -72,11 +72,11 @@ const Header = () => {
       </div>
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 bg-[#fffffff2] z-40 flex items-center justify-center md:hidden transition-transform duration-500 ease-in-out transform ${
-          isMenuOpen
-            ? "-translate-y-0 opacity-100"
-            : "-translate-y-full opacity-0"
-        }`}
+       className={`fixed inset-0 bg-[#fffffff2] z-40 flex items-center justify-center md:hidden transition-all duration-500 ease-in-out ${
+        isMenuOpen
+          ? "-translate-y-0 opacity-100"
+          : "-translate-y-full opacity-0"
+      }`}
       >
         <nav className="text-center ">
           <div className="flex flex-col  space-y-8">

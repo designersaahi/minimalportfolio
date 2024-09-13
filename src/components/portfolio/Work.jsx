@@ -62,7 +62,7 @@ const Work=()=> {
   return (
    <section className="w-full">
     <Helmet>
-        <title>Home | Sahitya Kashyap Portfolio</title>
+        <title>Sahitya Kashyap | ID Portfolio</title>
         <meta name="description" content="Welcome to the portfolio of Sahitya Kashyap." />
       </Helmet>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">

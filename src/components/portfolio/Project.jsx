@@ -4,6 +4,7 @@ import { Card, CardContent } from "../ui/card";
 import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "../ui/button";
 import { ArrowUp, Upload } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const Project = () => {
   const { title } = useParams();
@@ -56,12 +57,16 @@ const Project = () => {
   return (
     filteredProject && (
       <div className=" relative">
+        <Helmet>
+        <title>{projectTitle} | Work</title>
+        <meta name="description" content="Welcome to the portfolio of Sahitya Kashyap." />
+      </Helmet>
         <img className="lg:w-[75vw] mx-auto" src={images?.[0]} alt="img" />
-        <Card className="lg:w-[75vw] w-[95vw] mx-auto h-[50vh]">
+        <Card className="lg:w-[73.5vw] w-[95vw] mx-auto h-[40vh]">
           <CardContent className="p-8 h-full flex flex-col justify-center">
             <div className="flex justify-between items-center h-full">
               <div className="space-y-6 flex flex-col justify-center">
-                <h1 className="text-6xl font-bold tracking-tighter">
+                <h1 className="md:text-6xl text-4xl font-bold tracking-tighter">
                   {projectTitle}
                 </h1>
                 <p className="text-2xl text-muted-foreground max-w-lg">
@@ -70,9 +75,9 @@ const Project = () => {
               </div>
               <div className="text-right">
                 <p className="text-xl font-semibold">{date}</p>
-                <p>{duration}</p>
-                <p className="text-base text-muted-foreground">{creator}</p>
-                <p className="text-base text-muted-foreground">{cocreator}</p>
+                <p className="text-muted-foreground text-sm">{duration}</p>
+                <p className=" text-muted-foreground text-sm">{creator}</p>
+                <p className=" text-muted-foreground text-sm">{cocreator}</p>
               </div>
             </div>
           </CardContent>

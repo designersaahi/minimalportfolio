@@ -5,6 +5,7 @@ import Sandbox from "./components/portfolio/Sandbox";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./components/portfolio/MainLayout";
 import Project from "./components/portfolio/Project";
+import { HelmetProvider } from "react-helmet-async";
 
 const appRouter = createBrowserRouter([
   {
@@ -32,7 +33,8 @@ const appRouter = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={appRouter}></RouterProvider>;
+
+  return <HelmetProvider> <RouterProvider router={appRouter}></RouterProvider></HelmetProvider>;
 }
 
 export default App;

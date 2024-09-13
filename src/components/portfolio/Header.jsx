@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className="lg:h-[25vh] h-[15vh] flex px-8 sm:px-12 lg:px-16">
       {" "}
-      <div className="flex justify-between px-6 w-full items-center">
+      <div className="flex justify-between md:px-6 w-full items-center">
         <Link to="/" className="text-lg font-semibold">Sahitya Kashyap</Link>
         <nav className="hidden md:flex space-x-10">
           <NavLink

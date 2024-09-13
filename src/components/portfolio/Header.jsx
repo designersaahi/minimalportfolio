@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, NavLink } from "react-router-dom";
 
@@ -9,19 +9,31 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto"; // Cleanup on unmount
+    };
+  }, [isMenuOpen]);
+
   return (
-    <header className="lg:h-[25vh] h-[15vh] flex px-8 sm:px-12 lg:px-16">
-      {" "}
+    <header className="lg:h-[25vh] h-[15vh] flex px-4 sm:px-12 lg:px-16">
       <div className="flex justify-between md:px-6 w-full items-center">
-        <Link to="/" className="text-lg font-semibold">Sahitya Kashyap</Link>
+        <Link to="/" className="text-lg text-gray-600 font-semibold">
+          Sahitya Kashyap
+        </Link>
         <nav className="hidden md:flex space-x-10">
           <NavLink
             to="/"
-            className={
-              ({ isActive }) =>
-                isActive
-                  ? "text-gray-900 font-semibold" 
-                  : "text-gray-600 hover:text-gray-900" 
+            className={({ isActive }) =>
+              isActive
+                ? "text-gray-900 font-semibold"
+                : "text-gray-600 hover:text-gray-900"
             }
           >
             Work
@@ -46,47 +58,52 @@ const Header = () => {
           >
             About
           </NavLink>
-         
         </nav>
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-gray-600 hover:text-gray-900 z-50 relative"
+            className={`text-gray-600 hover:text-gray-900 z-50 relative transition-transform duration-300 ${
+              isMenuOpen ? "-rotate-90" : ""
+            }`}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
       </div>
-      {isMenuOpen && (
-        <div className="fixed inset-0 bg-white z-40 flex items-center justify-center md:hidden">
-          <nav className="text-center">
-            <div className="flex flex-col space-y-8">
-              <Link
-                to="/"
-                className="text-2xl text-gray-800 hover:text-gray-900"
-                onClick={toggleMenu}
-              >
-                Work
-              </Link>
-              <Link
-                to="/sandbox"
-                className="text-2xl text-gray-800 hover:text-gray-900"
-                onClick={toggleMenu}
-              >
-                Sandbox
-              </Link>
-              <Link
-                to="/about"
-                className="text-2xl text-gray-800 hover:text-gray-900"
-                onClick={toggleMenu}
-              >
-                About
-              </Link>
-             
-            </div>
-          </nav>
-        </div>
-      )}
+      {/* Mobile Menu */}
+      <div
+        className={`fixed inset-0 bg-[#fffffff2] z-40 flex items-center justify-center md:hidden transition-transform duration-500 ease-in-out transform ${
+          isMenuOpen
+            ? "-translate-y-0 opacity-100"
+            : "-translate-y-full opacity-0"
+        }`}
+      >
+        <nav className="text-center ">
+          <div className="flex flex-col  space-y-8">
+            <Link
+              to="/"
+              className="text-xl text-gray-800 hover:text-gray-900"
+              onClick={toggleMenu}
+            >
+              Work
+            </Link>
+            <Link
+              to="/sandbox"
+              className="text-xl text-gray-800 hover:text-gray-900"
+              onClick={toggleMenu}
+            >
+              Sandbox
+            </Link>
+            <Link
+              to="/about"
+              className="text-xl text-gray-800 hover:text-gray-900"
+              onClick={toggleMenu}
+            >
+              About
+            </Link>
+          </div>
+        </nav>
+      </div>
     </header>
   );
 };

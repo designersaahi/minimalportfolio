@@ -70,6 +70,14 @@ import image73 from "../assets/project pages/all project pages/73.png";
 import image74 from "../assets/project pages/all project pages/74.png";
 import image75 from "../assets/project pages/all project pages/75.png";
 
+/Watch/
+import image76 from "../assets/project pages/watch/a.png";
+import image77 from "../assets/project pages/watch/b.png";
+import image78 from "../assets/project pages/watch/c.png";
+import image79 from "../assets/project pages/watch/d.png";
+import image80 from "../assets/project pages/watch/e.png";
+
+
 
 
 export const projects = [
@@ -202,7 +210,11 @@ export const projects = [
     creator: "ID | Sahitya Kashyap",
     cocreator: "Video Editing | Somesh",
     images: [
-        
+        image76,
+        image77,
+        image78,
+        image79,
+        image80,
     ],
   },
   

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { sandBoxImage } from "@/constants/sandboxImage";
+import { sandBoxImage } from "../../constants/sandboxImage";
 import "../../../src/gallery.css";
 import {
   Dialog,

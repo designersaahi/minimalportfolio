@@ -6,6 +6,7 @@ import toy from "../../assets/images/thumbnails/Hero.png"
 import watch from "../../assets/images/thumbnails/Hero1.png"
 import lamp from "../../assets/images/thumbnails/Cover Thumnail.png"
 import { useNavigate, useParams } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 const products = [
   {
@@ -51,11 +52,19 @@ const products = [
 const Work=()=> {
   const navigate = useNavigate();
   const handleProjectRoute = (title) => {
-      navigate(`/project/${title}`)
+      navigate(`/project/${title}`);
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth', // Adds smooth scrolling
+      });
   }
 
   return (
    <section className="w-full">
+    <Helmet>
+        <title>Home | Sahitya Kashyap Portfolio</title>
+        <meta name="description" content="Welcome to the portfolio of Sahitya Kashyap." />
+      </Helmet>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
         {products.map((product, index) => (
           <div onClick={()=> handleProjectRoute(product?.name)} key={index} className="relative group overflow-hidden aspect-[3.7/4] cursor-pointer">

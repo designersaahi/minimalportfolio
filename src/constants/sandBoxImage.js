@@ -21,7 +21,7 @@ import image20 from "../assets/project pages/Extra/sketch (1).webp";
 import image21 from "../assets/project pages/Extra/sketch (2).webp";
 
 
-export const sandBoxImage = [
+export const sandboxImage = [
   image1,
   image2,
   image3,

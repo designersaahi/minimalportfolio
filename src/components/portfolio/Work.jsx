@@ -75,9 +75,9 @@ const Work=()=> {
               objectFit="cover"
               className="w-full h-full"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white p-4">
-              <h3 className="text-xl font-semibold mb-2 text-center">{product.name}</h3>
-              <p className="text-sm text-center">{product.description}</p>
+            <div className="absolute inset-0 bg-white bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col text-gray-800 pl-14 pt-10">
+              <h3 className="text-xl font-semibold mb-2 ">{product.name}</h3>
+              <p className="text-sm ">{product.description}</p>
             </div>
           </div>
         ))}

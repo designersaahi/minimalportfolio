@@ -5,9 +5,8 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
+  DialogDescription
 } from "../ui/dialog";
-import { DialogDescription } from "@radix-ui/react-dialog";
 import { sandBoxImages } from "@/constants/sandBoxImages";
 
 const Gallery = () => {

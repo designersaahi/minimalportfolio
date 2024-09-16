@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-8 px-4">
-      <div className="container mx-auto flex flex-col items-center">
+    <footer className="bg-white py-8 px-4 mt-10">
+      <div className="container mx-auto flex flex-col  items-center">
         <div className="flex space-x-6 mb-6">
           <Link to="https://www.linkedin.com/in/sahityakashyap/" target='_blank' className="text-black hover:text-gray-600">
             <LinkedinIcon size={24} />

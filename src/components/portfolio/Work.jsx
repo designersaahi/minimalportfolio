@@ -12,35 +12,35 @@ const products = [
   {
     id: 1,
     name: "Joseph Joseph Glue Gun",
-    description: "Industrial Design Project",
+    description: "ID Project",
     color: "White/Silver",
     imageUrl: gluegun
   },
   {
     id: 2,
     name: "Coordinate War",
-    description: "Toy Design Project",
+    description: "Toy Project",
     color: "White/Silver",
     imageUrl: toy
   },
   {
     id: 3,
     name: "MOODI Lamp",
-    description: "Skill Demonstration Project",
+    description: "Skill Project",
     color: "Silver/White",
     imageUrl: lamp
   },
   {
     id: 4,
     name: "Scotch Tape Dispenser",
-    description: "Industrial Design Project",
+    description: "ID Project",
     color: "White/Navy",
     imageUrl: tapedispenser
   },
   {
     id: 5,
     name: "Titan Watch",
-    description: " Semiotics Project",
+    description: " ID Project",
     color: "White",
     imageUrl: watch
   },

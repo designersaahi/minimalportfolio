@@ -69,24 +69,26 @@ const Gallery = () => {
       ))}
 
       {isDialogOpen && (
-        <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-          <DialogContent className="w-[90vw] lg:w-[80vw] max-w-none">
-            <DialogHeader className="">
-              <DialogTitle></DialogTitle>
-              <DialogDescription className="w-full">
-                <img
-                  src={selectedImage}
-                  alt="Selected"
-                  className="w-full h-[75vh] mx-auto object-contain"
-                  loading="lazy"
-                />
-              </DialogDescription>
-            </DialogHeader>
-            <button onClick={closeDialog} className="border-none outline-none">
-              Close
-            </button>
-          </DialogContent>
-        </Dialog>
+         <Dialog className="rounded-none" open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+         <DialogContent
+           className="max-w-none p-0 flex flex-col items-center rounded-none overflow-hidden"
+           style={{ width: 'auto', height: 'auto' }} // Dynamically adjust the width/height
+         >
+           <DialogHeader className="w-full rounded-none">
+             {/* <DialogTitle></DialogTitle> */}
+             <DialogDescription className="w-full rounded-none">
+               <img
+                 src={selectedImage}
+                 alt="Selected"
+                 className="mx-auto object-contain rounded-none"
+                 loading="lazy"
+                 style={{ maxHeight: '75vh', maxWidth: '90vw' }} // Constrain image size to viewport
+               />
+             </DialogDescription>
+           </DialogHeader>
+           
+         </DialogContent>
+       </Dialog>
       )}
     </div>
   );

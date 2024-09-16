@@ -202,7 +202,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Titan Retro Watch",
+    title: "Titan Watch",
     subtitle: "Industrial Design Project",
     type: "Personal Project",
     duration: "10 Days",

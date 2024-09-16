@@ -6,8 +6,6 @@ import {
   DialogHeader,
   DialogDescription,
   DialogTitle,
-  DialogDescription
-
 } from "../ui/dialog";
 import { sandBoxImages } from "@/constants/sandBoxImages";
 

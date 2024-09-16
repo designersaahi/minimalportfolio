@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <header className="lg:h-[25vh] h-[15vh] flex ">
       <div className="flex justify-between md:px-14 px-4 w-full items-center">
-        <Link to="/" className="text-lg text-gray-900 ">
+        <Link to="/" className="text-lg text-gray-600 ">
           Sahitya Kashyap
         </Link>
         <nav className="hidden md:flex space-x-14">

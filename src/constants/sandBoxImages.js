@@ -19,29 +19,32 @@ import image18 from "../assets/project pages/Extra/image (7).jpg";
 import image19 from "../assets/project pages/Extra/sketch.png";
 import image20 from "../assets/project pages/Extra/sketch (1).webp";
 import image21 from "../assets/project pages/Extra/sketch (2).webp";
+import image22 from "../assets/project pages/Extra/card1.png";
+import image23 from "../assets/project pages/Extra/card2.png";
 
 
 export const sandBoxImages = [
-  image1,
-  image2,
+  image22,
+  image23,
   image3,
-  image4,
-  image5,
-  image6,
+  image5, 
   image7,
   image8,
   image9,
-  image10,
   image11,
+  image6,
   image12,
+  image4,
+  image10,
   image13,
   image14,
   image15,
+  image1,
+  image20,
   image16,
+  image2,
   image17,
   image18,
   image19,
-  image20,
   image21,
-
 ];

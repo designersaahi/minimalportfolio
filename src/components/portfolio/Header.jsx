@@ -22,12 +22,12 @@ const Header = () => {
   }, [isMenuOpen]);
 
   return (
-    <header className="lg:h-[25vh] h-[15vh] flex px-4 sm:px-12 lg:px-16">
-      <div className="flex justify-between md:px-6 w-full items-center">
-        <Link to="/" className="text-lg text-gray-600 font-semibold">
+    <header className="lg:h-[25vh] h-[15vh] flex ">
+      <div className="flex justify-between md:px-14 px-4 w-full items-center">
+        <Link to="/" className="text-lg text-gray-900 ">
           Sahitya Kashyap
         </Link>
-        <nav className="hidden md:flex space-x-10">
+        <nav className="hidden md:flex space-x-14">
           <NavLink
             to="/"
             className={({ isActive }) =>
@@ -66,7 +66,7 @@ const Header = () => {
               isMenuOpen ? "-rotate-90" : ""
             }`}
           >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
       </div>

@@ -75,7 +75,7 @@ const About = () => {
           </div>
           <div>
             <h3 className="font-semibold">Application Trainee</h3>
-            <p className="text-gray-600">Objectify Technologies</p>
+            <p className="text-gray-600">Objectify Technologies- Metal Additive Manufacturing</p>
             <p>
               My responsibilities at Objectify Technologies included:
               Redesigning products for additive manufacturing, optimizing

@@ -64,7 +64,7 @@ const Project = () => {
         <img className="lg:w-[75vw] mx-auto" src={images?.[0]} alt="img" />
         <Card className="lg:w-[73.5vw] w-[95vw] mx-auto h-[40vh]">
           <CardContent className="p-8 h-full flex flex-col justify-center">
-            <div className="flex justify-between items-center h-full">
+            <div className="md:flex justify-between items-center h-full">
               <div className="space-y-6 flex flex-col justify-center">
                 <h1 className="md:text-6xl text-4xl font-bold tracking-tighter">
                   {projectTitle}
@@ -73,7 +73,7 @@ const Project = () => {
                   {subtitle}
                 </p>
               </div>
-              <div className="text-right">
+              <div className="md: text-left lg:text-right mt-4">
                 <p className="text-xl font-semibold">{date}</p>
                 <p className="text-muted-foreground text-sm">{duration}</p>
                 <p className=" text-muted-foreground text-sm">{creator}</p>

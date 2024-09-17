@@ -65,11 +65,11 @@ const Project = () => {
         <Card className="lg:w-[73.5vw] w-[95vw] mx-auto h-[40vh]">
           <CardContent className="p-8 h-full flex flex-col justify-center">
             <div className="md:flex justify-between items-center h-full">
-              <div className="space-y-6 flex flex-col justify-center">
-                <h1 className="md:text-6xl text-4xl font-bold tracking-tighter">
+              <div className="space-y-4 flex flex-col justify-center">
+                <h1 className="md:text-5xl text-4xl font-normal tracking-tighter">
                   {projectTitle}
                 </h1>
-                <p className="text-2xl text-muted-foreground max-w-lg">
+                <p className="text-xl text-muted-foreground max-w-lg">
                   {subtitle}
                 </p>
               </div>

@@ -51,12 +51,6 @@ const About = () => {
         <div>
           <h2 className="text-xl font-semibold mb-4">Experience</h2>
           <div className="mb-4">
-            <h3 className="font-semibold">Industrial Design Intern</h3>
-            <p className="text-gray-600">
-              GDD- Industrial Design Studio (Currently Working)
-            </p>
-          </div>
-          <div className="mb-4">
             <h3 className="font-semibold">Product Design Intern-2023</h3>
             <p className="text-gray-600">Webby Toys</p>
             <p>

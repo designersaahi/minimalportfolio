@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
-    <div className="lg:max-w-[1100px] mx-auto p-6  bg-white">
+    <div className="lg:max-w-[1100px] mx-auto p-4  bg-white">
       <Helmet>
         <title>About | Sahitya Kashyap Portfolio</title>
         <meta

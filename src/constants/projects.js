@@ -210,7 +210,7 @@ export const projects = [
     duration: "10 Days",
     date: "Feb 2024",
     creator: "ID | Sahitya Kashyap",
-    cocreator: "Video Editing | Somesh",
+    cocreator: "",
     images: [
         image76,
         image77,

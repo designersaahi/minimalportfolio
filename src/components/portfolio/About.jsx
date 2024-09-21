@@ -20,7 +20,7 @@ const About = () => {
             alt="Sahitya Kashyap"
             width={300}
             height={300}
-            className="rounded-lg object-cover"
+            className="rounded-sm object-cover"
           />
         </div>
         <div className="md:w-2/3">

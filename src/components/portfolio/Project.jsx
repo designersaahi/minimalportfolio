@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { projects } from "@/constants/projects";
 import { Card, CardContent } from "../ui/card";
 import { useNavigate, useParams } from "react-router-dom";
@@ -11,6 +11,8 @@ const Project = () => {
   const navigate = useNavigate();
   const [isVisible, setIsVisible] = useState(false);
 
+
+
   const filteredProject = projects.find((project) => project?.title === title);
   const {
     id,
@@ -20,9 +22,13 @@ const Project = () => {
     images,
     type,
     date,
+    video,
     creator,
     cocreator,
   } = filteredProject;
+
+
+
 
   const handleNextProject = (title) => {
     navigate(`/project/${title}`);
@@ -61,19 +67,23 @@ const Project = () => {
         <title>{projectTitle} | Work</title>
         <meta name="description" content="Welcome to the portfolio of Sahitya Kashyap." />
       </Helmet>
-        <img className="lg:w-[75vw] mx-auto" src={images?.[0]} alt="img" />
-        <Card className="lg:w-[73.5vw] w-[95vw] mx-auto h-[40vh]">
-          <CardContent className="p-8 h-full flex flex-col justify-center">
-            <div className="md:flex justify-between items-center h-full">
-              <div className="space-y-4 flex flex-col justify-center">
-                <h1 className="md:text-5xl text-4xl font-normal tracking-tighter">
+      <div className="lg:w-[75vw] mx-auto mb-2">
+        {
+          video ? <video  src={video} className="w-full md:p-4 p-1 object-cover" autoPlay loop muted /> : <img className="" src={images?.[0]} alt="img" />
+        }
+      </div>
+        <Card className="lg:w-[73.5vw] border-none w-[95vw] shadow-none mx-auto h-[40vh]">
+          <CardContent className="md:p-8 h-full flex flex-col justify-center">
+            <div className="flex flex-col md:flex-row md:justify-between md:gap-0 gap-5 justify-center md:items-center h-full">
+              <div className="md:space-y-6 space-y-1 flex flex-col justify-center">
+                <h1 className="md:text-6xl text-5xl font-normal tracking-tighter">
                   {projectTitle}
                 </h1>
-                <p className="text-xl text-muted-foreground max-w-lg">
+                <p className="text-xl md:text-2xl text-muted-foreground max-w-lg">
                   {subtitle}
                 </p>
               </div>
-              <div className="md: text-left lg:text-right mt-4">
+              <div className="md:text-right">
                 <p className="text-xl font-semibold">{date}</p>
                 <p className="text-muted-foreground text-sm">{duration}</p>
                 <p className=" text-muted-foreground text-sm">{creator}</p>
@@ -84,7 +94,7 @@ const Project = () => {
         </Card>
         {/* images container */}
         <div>
-          {images.slice(1).map((image, index) => (
+          {(video ? images : images.slice(1)).map((image, index) => (
             <img
               key={index}
               className="lg:w-[75vw] mx-auto"

@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
-    <div className="lg:max-w-[70vw] mx-auto p-6  bg-white">
+    <div className="lg:max-w-[1100px] mx-auto p-6  bg-white">
       <Helmet>
         <title>About | Sahitya Kashyap Portfolio</title>
         <meta
@@ -13,13 +13,11 @@ const About = () => {
           content="Welcome to the portfolio of Sahitya Kashyap."
         />
       </Helmet>
-      <div className="flex flex-col  md:flex-row gap-6  mb-8">
-        <div className="md:w-1/3">
+      <div className="flex flex-col md:flex-row gap-6  mb-8">
+        <div className="md:w-1/3 w-full object-cover">
           <img
             src={image1}
             alt="Sahitya Kashyap"
-            width={300}
-            height={300}
             className="rounded-sm object-cover"
           />
         </div>
@@ -111,12 +109,12 @@ const About = () => {
                 in the design and manufacturing of products using tools. The
                 program constitutes mass production of various product
                 components utilizing the art of designing and manufacturing dies
-                and moulds
+                and moulds.
               </p>
             </div>
           </div>
 
-          <div className="">
+          <div className="md:mt-2 mt-10">
           <span className="text-gray-600 mt-10">
             Email-{" "}
             <Link

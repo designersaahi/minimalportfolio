@@ -76,6 +76,8 @@ import image77 from "../assets/project pages/watch/b.png";
 import image78 from "../assets/project pages/watch/c.png";
 import image79 from "../assets/project pages/watch/d.png";
 import image80 from "../assets/project pages/watch/e.png";
+import watchVideo from "../assets/video/Promo.mp4"
+import coordinateWarVideo from "../assets/video/webbyToysCoordinateWars.mp4"
 
 
 
@@ -123,6 +125,7 @@ export const projects = [
     date: "November 2022 Launch",
     creator: "ID | Sahitya Kashyap",
     cocreator: "Graphic | Vikrant",
+    video : coordinateWarVideo,
     images: [
         image26,
         image27,
@@ -138,7 +141,6 @@ export const projects = [
         image37,
         image38,
         image39,
-        image40, 
     ],
   },
   {
@@ -202,13 +204,14 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Titan Watch",
+    title: "Titan Retro Watch",
     subtitle: "Industrial Design Project",
     type: "Personal Project",
     duration: "10 Days",
     date: "Feb 2024",
     creator: "ID | Sahitya Kashyap",
     cocreator: "Video Editing | Somesh",
+    video : watchVideo,
     images: [
         image76,
         image77,

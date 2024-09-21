@@ -204,14 +204,13 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Titan Retro Watch",
+    title: "Titan Watch",
     subtitle: "Industrial Design Project",
     type: "Personal Project",
     duration: "10 Days",
     date: "Feb 2024",
     creator: "ID | Sahitya Kashyap",
     cocreator: "Video Editing | Somesh",
-    video : watchVideo,
     images: [
         image76,
         image77,

@@ -11,7 +11,7 @@
     -webkit-transition: all 3ms ease;
     transition: all;
     cursor: pointer;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
 }
 .gallery .pics:hover {
     filter: opacity(.8);

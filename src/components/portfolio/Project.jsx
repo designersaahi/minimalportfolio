@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { projects } from "@/constants/projects";
 import { Card, CardContent } from "../ui/card";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { ArrowUp, Upload } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
@@ -25,6 +25,7 @@ const Project = () => {
     video,
     creator,
     cocreator,
+    link
   } = filteredProject;
 
 
@@ -93,7 +94,7 @@ const Project = () => {
                 <p className="text-xl font-semibold">{date}</p>
                 <p className="text-muted-foreground text-sm">{duration}</p>
                 <p className=" text-muted-foreground text-sm">{creator}</p>
-                <p className=" text-muted-foreground text-sm">{cocreator}</p>
+                <p className=" text-muted-foreground text-sm"><Link target="_blank" to={link &&  `${link}`}>{cocreator}</Link></p>
               </div>
             </div>
           </CardContent>

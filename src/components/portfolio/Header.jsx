@@ -22,7 +22,7 @@ const Header = () => {
   }, [isMenuOpen]);
 
   return (
-    <header className="lg:h-[25vh] h-[9vh] flex ">
+    <header className="lg:h-[25vh] md:h-[18vh] h-[9vh] flex ">
       <div className="flex justify-between md:px-24 px-4 w-full items-center">
         <Link to="/" className="text-xl text-gray-600 ">
           Sahitya Kashyap

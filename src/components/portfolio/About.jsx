@@ -13,6 +13,7 @@ const About = () => {
           content="Welcome to the portfolio of Sahitya Kashyap."
         />
       </Helmet>
+
       <div className="flex flex-col md:flex-row gap-6  mb-8">
         <div className="md:w-1/3 w-full object-cover">
           <img
@@ -46,6 +47,7 @@ const About = () => {
       </div>
 
       <div className="grid md:grid-cols-2 gap-6">
+
         <div>
           <h2 className="text-xl font-semibold mb-4">Experience</h2>
           <div className="mb-4">
@@ -69,7 +71,6 @@ const About = () => {
             <h3 className="font-semibold">Application Trainee</h3>
             <p className="text-gray-600">Objectify Technologies- Metal Additive Manufacturing</p>
             <p>
-              My responsibilities at Objectify Technologies included:
               Redesigning products for additive manufacturing, optimizing
               designs for weight reduction, and creating conformal cooling
               channels.Providing RFQ quotations, communicating with clients on
@@ -83,7 +84,7 @@ const About = () => {
           <div>
             <h2 className="text-xl font-semibold mb-4">Education</h2>
             <div className="mb-4">
-              <h3 className="font-semibold">Offsite Pro</h3>
+              <h3 className="font-semibold"><Link to="https://advdes.org/pro" target='_blank' className='hover:underline text-gray-700'>Offsite Pro</Link></h3>
               <p className="text-gray-600">Advanced Design</p>
               <p>
                 Offsite Pro is an online program disrupting industrial design
@@ -113,6 +114,36 @@ const About = () => {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className="flex justify-between flex-col">
+          <div>
+            <h2 className="text-xl font-semibold mb-4">Achievements</h2>
+            <div className="mb-4">
+              <h3 className="font-semibold">Competitor in Indiaskills- National Competition for Worldskills</h3>
+              <p className="text-gray-600">Mechanical Engineering CAD National IndiaSkills Competition</p>
+            </div>
+            <div className="mb-4">
+              <h3 className="font-semibold">North India Gold Medalist in Regionals- Competition for Worldskills</h3>
+              <p className="text-gray-600">Mechanical Engineering CAD North India Competition </p>
+            </div>
+            <div className="mb-4">
+              <h3 className="font-semibold">State Gold Medalist in State Competition for Worldskills</h3>
+              <p className="text-gray-600">Mechanical Engineering CAD Delhi State Competition</p>
+            </div>
+
+          </div>
+          
+        </div>
+        
+        <div className="flex justify-between flex-col">
+          <div>
+            <h2 className="text-xl font-semibold mb-4">Certifications</h2>
+            <div className="mb-4">
+              <h3 className="font-semibold"><Link to="https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-HMES8F2RX9" target='_blank' className='hover:underline text-gray-700'>Certified Solidworks Professional</Link></h3>
+              <p className="text-gray-600">Mechanical Design (CSWP) </p>
+            </div>
+          </div>
 
           <div className="md:mt-2 mt-10">
           <span className="text-gray-600 mt-10">
@@ -129,6 +160,7 @@ const About = () => {
           </div>
           
         </div>
+
       </div>
     </div>
   );

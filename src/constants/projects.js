@@ -125,6 +125,7 @@ export const projects = [
     date: "November 2022 Launch",
     creator: "ID | Sahitya Kashyap",
     cocreator: "Graphic | Vikrant",
+    link:"https://www.linkedin.com/in/vikrant-kumar-54712119b/",
     video : coordinateWarVideo,
     images: [
         image26,
@@ -209,7 +210,7 @@ export const projects = [
     type: "Personal Project",
     duration: "10 Days",
     date: "Feb 2024",
-    creator: "ID | Sahitya Kashyap",
+    creator: "Sahitya Kashyap",
     cocreator: "",
     images: [
         image76,

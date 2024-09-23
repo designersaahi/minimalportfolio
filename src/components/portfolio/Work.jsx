@@ -115,7 +115,7 @@ const Work = () => {
       
 
         {/* Optional additional overlay */}
-        <div className="absolute inset-0 bg-white bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col text-gray-800 md:pl-14 pl-4 pt-10">
+        <div className="absolute inset-0 bg-white bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col text-gray-800 md:pl-24 pl-4 pt-10">
           <h3 className="text-sm text-gray-800 font-semibold mb-2 ">{product.name}</h3>
           <p className="text-sm text-gray-500">{product.description}</p>
         </div>

@@ -10,7 +10,7 @@ const Sandbox = () => {
         <meta name="description" content="Welcome to the portfolio of Sahitya Kashyap." />
       </Helmet>
       <div>
-        <h1  className='text-l font-normal text-center px-4'>
+        <h1  className='text-lg mt-4 mb-10 font-normal text-center px-4'>
           Collection of Renders, Sketches, CAD & other small projects.
         </h1>
         <Gallery/>

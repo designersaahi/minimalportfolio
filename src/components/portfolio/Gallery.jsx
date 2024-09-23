@@ -61,7 +61,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div className="gallery my-16" ref={galleryRef}>
+    <div className="gallery " ref={galleryRef}>
       {sandBoxImages.map((image, index) => (
         <div className="pics" key={index} onClick={() => getImage(image)}>
           <img src={image} alt="" />

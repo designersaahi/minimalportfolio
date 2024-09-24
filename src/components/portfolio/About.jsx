@@ -26,22 +26,13 @@ const About = () => {
           <h1 className="text-3xl font-bold mb-2">Sahitya Kashyap</h1>
           <p className="text-gray-600 mb-4">Industrial Designer, Based out of Delhi, India</p>
           <p className="mb-4">
-            My journey started in 2017, with a 4 year diploma in Tool & Die
-            Making where I learned and fell in love with how products are MADE,
-            what I did not know at the time was how those product are DESIGNED
-            for the user but my curiousity and some happy coincidence led me to
-            discover Industrial Design.
+          It all began in 2017 with a 4-year diploma in Tool & Die Making, where I developed a deep appreciation for how products are made. What I didn’t realize at the time was how crucial it is to design those products for the user. A mix of curiosity and some happy coincidences led me to discover Industrial Design.
           </p>
           <p className="mb-4">
-            In 2021, I went to study Industrial Design at DTU while embracing my
-            skills in Tool & Die, while learning even more about different
-            dimensions of Industrial Design.
+          In 2021, I embarked on a new chapter at DTU, where I studied Industrial Design. I’ve continued to embrace my skills in Tool & Die Making while diving deeper into the user-focused side of product development.
           </p>
           <p className="mb-4">
-            Decided to top off my education with Offsite Pro in 2024 to get a
-            workflow around my skills and now I am looking for my big break to
-            utilise said skillset. Also, When I'm not designing, I lose ranking
-            on chess.com or valorant.
+          In 2024, I completed Offsite Pro to refine my workflow and now I’m searching for my next big break—a chance to put my skills to use in the real world. When I’m not designing, you’ll probably find me losing ranking on chess.com or Valorant.
           </p>
         </div>
       </div>

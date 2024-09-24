@@ -24,7 +24,7 @@ const About = () => {
         </div>
         <div className="md:w-2/3">
           <h1 className="text-3xl font-bold mb-2">Sahitya Kashyap</h1>
-          <p className="text-gray-600 mb-4">Based out of Delhi, India</p>
+          <p className="text-gray-600 mb-4">Industrial Designer, Based out of Delhi, India</p>
           <p className="mb-4">
             My journey started in 2017, with a 4 year diploma in Tool & Die
             Making where I learned and fell in love with how products are MADE,

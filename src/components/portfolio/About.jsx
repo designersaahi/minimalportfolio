@@ -42,8 +42,13 @@ const About = () => {
         <div>
           <h2 className="text-xl font-semibold mb-4">Experience</h2>
           <div className="mb-4">
+            <h3 className="font-semibold">Industrial Design Intern</h3>
+            <p className="text-gray-600"><Link to="https://www.gdd.design/industrial-design" target='_blank' className='hover:underline text-gray-700'>GDD Industrial Design Studio</Link></p>
+            <p>Consumer Electronics Product Development.</p>
+          </div>
+          <div className="mb-4">
             <h3 className="font-semibold">Product Design Intern-2023</h3>
-            <p className="text-gray-600">Webby Toys</p>
+            <p className="text-gray-600"><Link to="https://www.webby.toys/collections/games" target='_blank' className='hover:underline text-gray-700'>Webby Toys</Link></p>
             <p>
               Designing of 1 Game Toy and 1 Interactive Board game for age 6+,
               to be sold under Rs.499.
@@ -52,7 +57,7 @@ const About = () => {
           </div>
           <div className="mb-4">
             <h3 className="font-semibold">Product Design Intern-2022</h3>
-            <p className="text-gray-600">Webby Toys</p>
+            <p className="text-gray-600"><Link to="https://www.webby.toys/collections/games" target='_blank' className='hover:underline text-gray-700'>Webby Toys</Link></p>
             <p>
               Designing of STEM Based Interactive Game Toy for age 6+, Workflow
               Design for Pine Wood Toy Design, manufacturing, costing.
@@ -60,7 +65,7 @@ const About = () => {
           </div>
           <div>
             <h3 className="font-semibold">Application Trainee</h3>
-            <p className="text-gray-600">Objectify Technologies- Metal Additive Manufacturing</p>
+            <p className="text-gray-600"><Link to="https://objectify.co.in/" target='_blank' className='hover:underline text-gray-700'>Objectify Technologies- Metal Additve Manufacturing</Link></p>
             <p>
               Redesigning products for additive manufacturing, optimizing
               designs for weight reduction, and creating conformal cooling

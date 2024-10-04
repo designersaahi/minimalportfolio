@@ -1,26 +1,26 @@
-import image1 from "../assets/project pages/Extra/Bottle.png";
-import image2 from "../assets/project pages/Extra/Card.png";
-import image3 from "../assets/project pages/Extra/Cover Thumnail.png";
-import image4 from "../assets/project pages/Extra/Digital Illustration.png";
-import image5 from "../assets/project pages/Extra/Electronics and Printing.png";
-import image6 from "../assets/project pages/Extra/fam.png";
-import image7 from "../assets/project pages/Extra/front 3.png";
-import image8 from "../assets/project pages/Extra/macro.png";
-import image9 from "../assets/project pages/Extra/top.png";
-import image11 from "../assets/project pages/Extra/image (1).png";
-import image12 from "../assets/project pages/Extra/image (2).jpg";
-import image13 from "../assets/project pages/Extra/image (2).png";
-import image14 from "../assets/project pages/Extra/image (3).jpg";
-import image15 from "../assets/project pages/Extra/image (4).jpg";
-import image16 from "../assets/project pages/Extra/image (5).jpg";
-import image17 from "../assets/project pages/Extra/image (6).jpg";
-import image18 from "../assets/project pages/Extra/image (7).jpg";
-import image19 from "../assets/project pages/Extra/sketch.png";
+import image1 from "../assets/project pages/Extra/Bottle.webp";
+import image2 from "../assets/project pages/Extra/Card.webp";
+import image3 from "../assets/project pages/Extra/Cover Thumnail.webp";
+import image4 from "../assets/project pages/Extra/Digital Illustration.webp";
+import image5 from "../assets/project pages/Extra/Electronics and Printing.webp";
+import image6 from "../assets/project pages/Extra/fam.webp";
+import image7 from "../assets/project pages/Extra/front 3.webp";
+import image8 from "../assets/project pages/Extra/macro.webp";
+import image9 from "../assets/project pages/Extra/top.webp";
+import image11 from "../assets/project pages/Extra/image (1).webp";
+import image12 from "../assets/project pages/Extra/image (2).webp";
+import image13 from "../assets/project pages/Extra/image (2).webp";
+import image14 from "../assets/project pages/Extra/image (3).webp";
+import image15 from "../assets/project pages/Extra/image (4).webp";
+import image16 from "../assets/project pages/Extra/image (5).webp";
+import image17 from "../assets/project pages/Extra/image (6).webp";
+import image18 from "../assets/project pages/Extra/image (7).webp";
+import image19 from "../assets/project pages/Extra/sketch.webp";
 import image20 from "../assets/project pages/Extra/sketch (1).webp";
 import image21 from "../assets/project pages/Extra/sketch (2).webp";
-import image22 from "../assets/project pages/Extra/card1.png";
-import image23 from "../assets/project pages/Extra/card2.png";
-import image24 from "../assets/project pages/Extra/Advance textures.16.png";
+import image22 from "../assets/project pages/Extra/card1.webp";
+import image23 from "../assets/project pages/Extra/card2.webp";
+import image24 from "../assets/project pages/Extra/Advance textures.16.webp";
 
 
 export const sandBoxImages = [

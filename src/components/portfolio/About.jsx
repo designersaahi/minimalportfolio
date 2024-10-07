@@ -137,6 +137,14 @@ const About = () => {
             </div>
           </div>
 
+          <div>
+            <h2 className="text-xl font-semibold mb-4">Publications</h2>
+            <div className="mb-4">
+              <h3 className="font-semibold"><Link to="https://www.yankodesign.com/2024/10/05/glue-gun-concept-gives-the-crafting-tool-a-modern-and-ergonomic-makeover/" target='_blank' className='hover:underline text-gray-700'>Modern and Ergonomic Glue Gun Concept</Link></h3>
+              <p className="text-gray-600">Yanko Design</p>
+            </div>
+          </div>
+
           <div className="md:mt-2 mt-10">
           <span className="text-gray-600 mt-10">
             Email-{" "}

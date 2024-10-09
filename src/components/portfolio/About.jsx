@@ -43,6 +43,13 @@ const About = () => {
           <h2 className="text-xl font-semibold mb-4">Experience</h2>
 
           <div className="mb-4">
+            <h3 className="font-semibold">Industrial Design Intern</h3>
+            <p className="text-gray-600"><Link to="https://www.gdd.design/industrial-design" target='_blank' className='hover:underline text-gray-700'>GDD Industrial Design Studio</Link></p>
+            <p>
+              Designing of Electronic Devices.
+            </p>
+          </div>
+          <div className="mb-4">
             <h3 className="font-semibold">Product Design Intern-2023</h3>
             <p className="text-gray-600"><Link to="https://www.webby.toys/collections/games" target='_blank' className='hover:underline text-gray-700'>Webby Toys</Link></p>
             <p>

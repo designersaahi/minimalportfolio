@@ -1,88 +1,88 @@
-import image5 from "../assets/project pages/all project pages/5.png";
-import image6 from "../assets/project pages/all project pages/6.png";
-import image7 from "../assets/project pages/all project pages/7.png";
-import image8 from "../assets/project pages/all project pages/8.png";
-import image9 from "../assets/project pages/all project pages/9.png";
-import image10 from "../assets/project pages/all project pages/10.png";
-import image11 from "../assets/project pages/all project pages/11.png";
-import image12 from "../assets/project pages/all project pages/12.png";
-import image13 from "../assets/project pages/all project pages/13.png";
-import image14 from "../assets/project pages/all project pages/14.png";
-import image15 from "../assets/project pages/all project pages/15.png";
-import image16 from "../assets/project pages/all project pages/16.png";
-import image17 from "../assets/project pages/all project pages/17.png";
-import image18 from "../assets/project pages/all project pages/18.png";
-import image19 from "../assets/project pages/all project pages/19.png";
-import image20 from "../assets/project pages/all project pages/20.png";
-import image21 from "../assets/project pages/all project pages/21.png";
-import image22 from "../assets/project pages/all project pages/22.png";
-import image23 from "../assets/project pages/all project pages/23.png";
-import image24 from "../assets/project pages/all project pages/24.png";
-import image25 from "../assets/project pages/all project pages/25.png";
-import image26 from "../assets/project pages/all project pages/26.png";
-import image27 from "../assets/project pages/all project pages/27.png";
-import image28 from "../assets/project pages/all project pages/28.png";
-import image29 from "../assets/project pages/all project pages/29.png";
-import image30 from "../assets/project pages/all project pages/30.png";
-import image31 from "../assets/project pages/all project pages/31.png";
-import image32 from "../assets/project pages/all project pages/32.png";
-import image33 from "../assets/project pages/all project pages/33.png";
-import image34 from "../assets/project pages/all project pages/34.png";
-import image35 from "../assets/project pages/all project pages/35.png";
-import image36 from "../assets/project pages/all project pages/36.png";
-import image37 from "../assets/project pages/all project pages/37.png";
-import image38 from "../assets/project pages/all project pages/38.png";
-import image39 from "../assets/project pages/all project pages/39.png";
-import image40 from "../assets/project pages/all project pages/40.png";
-import image41 from "../assets/project pages/all project pages/41.png";
-import image42 from "../assets/project pages/all project pages/42.png";
-import image43 from "../assets/project pages/all project pages/43.png";
-import image44 from "../assets/project pages/all project pages/44.png";
-import image45 from "../assets/project pages/all project pages/45.png";
-import image46 from "../assets/project pages/all project pages/46.png";
-import image47 from "../assets/project pages/all project pages/47.png";
-import image48 from "../assets/project pages/all project pages/48.png";
-import image49 from "../assets/project pages/all project pages/49.png";
-import image50 from "../assets/project pages/all project pages/50.png";
-import image51 from "../assets/project pages/all project pages/51.png";
-import image52 from "../assets/project pages/all project pages/52.png";
-import image53 from "../assets/project pages/all project pages/53.png";
-import image54 from "../assets/project pages/all project pages/54.png";
-import image55 from "../assets/project pages/all project pages/55.png";
-import image56 from "../assets/project pages/all project pages/56.png";
-import image57 from "../assets/project pages/all project pages/57.png";
-import image58 from "../assets/project pages/all project pages/58.png";
-import image59 from "../assets/project pages/all project pages/59.png";
-import image60 from "../assets/project pages/all project pages/60.png";
-import image61 from "../assets/project pages/all project pages/61.png";
-import image62 from "../assets/project pages/all project pages/62.png";
-import image63 from "../assets/project pages/all project pages/63.png";
-import image64 from "../assets/project pages/all project pages/64.png";
-import image65 from "../assets/project pages/all project pages/65.png";
-import image66 from "../assets/project pages/all project pages/66.png";
-import image67 from "../assets/project pages/all project pages/67.png";
-import image68 from "../assets/project pages/all project pages/68.png";
-import image69 from "../assets/project pages/all project pages/69.png";
-import image70 from "../assets/project pages/all project pages/70.png";
-import image71 from "../assets/project pages/all project pages/71.png";
-import image72 from "../assets/project pages/all project pages/72.png";
-import image73 from "../assets/project pages/all project pages/73.png";
-import image74 from "../assets/project pages/all project pages/74.png";
-import image75 from "../assets/project pages/all project pages/75.png";
-import image76 from "../assets/project pages/all project pages/76.png";
-import image77 from "../assets/project pages/all project pages/77.png";
-import image78 from "../assets/project pages/all project pages/78.png";
-import image79 from "../assets/project pages/all project pages/79.png";
-import image80 from "../assets/project pages/all project pages/80.png";
-import image81 from "../assets/project pages/all project pages/81.png";
-import image82 from "../assets/project pages/all project pages/82.png";
-import image83 from "../assets/project pages/all project pages/83.png";
-import image84 from "../assets/project pages/all project pages/84.png";
-import image85 from "../assets/project pages/all project pages/85.png";
-import image86 from "../assets/project pages/all project pages/86.png";
-import image87 from "../assets/project pages/all project pages/87.png";
-import image88 from "../assets/project pages/all project pages/88.png";
-import image89 from "../assets/project pages/all project pages/89.png";
+import image5 from "../assets/project pages/all project pages/5.webp";
+import image6 from "../assets/project pages/all project pages/6.webp";
+import image7 from "../assets/project pages/all project pages/7.webp";
+import image8 from "../assets/project pages/all project pages/8.webp";
+import image9 from "../assets/project pages/all project pages/9.webp";
+import image10 from "../assets/project pages/all project pages/10.webp";
+import image11 from "../assets/project pages/all project pages/11.webp";
+import image12 from "../assets/project pages/all project pages/12.webp";
+import image13 from "../assets/project pages/all project pages/13.webp";
+import image14 from "../assets/project pages/all project pages/14.webp";
+import image15 from "../assets/project pages/all project pages/15.webp";
+import image16 from "../assets/project pages/all project pages/16.webp";
+import image17 from "../assets/project pages/all project pages/17.webp";
+import image18 from "../assets/project pages/all project pages/18.webp";
+import image19 from "../assets/project pages/all project pages/19.webp";
+import image20 from "../assets/project pages/all project pages/20.webp";
+import image21 from "../assets/project pages/all project pages/21.webp";
+import image22 from "../assets/project pages/all project pages/22.webp";
+import image23 from "../assets/project pages/all project pages/23.webp";
+import image24 from "../assets/project pages/all project pages/24.webp";
+import image25 from "../assets/project pages/all project pages/25.webp";
+import image26 from "../assets/project pages/all project pages/26.webp";
+import image27 from "../assets/project pages/all project pages/27.webp";
+import image28 from "../assets/project pages/all project pages/28.webp";
+import image29 from "../assets/project pages/all project pages/29.webp";
+import image30 from "../assets/project pages/all project pages/30.webp";
+import image31 from "../assets/project pages/all project pages/31.webp";
+import image32 from "../assets/project pages/all project pages/32.webp";
+import image33 from "../assets/project pages/all project pages/33.webp";
+import image34 from "../assets/project pages/all project pages/34.webp";
+import image35 from "../assets/project pages/all project pages/35.webp";
+import image36 from "../assets/project pages/all project pages/36.webp";
+import image37 from "../assets/project pages/all project pages/37.webp";
+import image38 from "../assets/project pages/all project pages/38.webp";
+import image39 from "../assets/project pages/all project pages/39.webp";
+import image40 from "../assets/project pages/all project pages/40.webp";
+import image41 from "../assets/project pages/all project pages/41.webp";
+import image42 from "../assets/project pages/all project pages/42.webp";
+import image43 from "../assets/project pages/all project pages/43.webp";
+import image44 from "../assets/project pages/all project pages/44.webp";
+import image45 from "../assets/project pages/all project pages/45.webp";
+import image46 from "../assets/project pages/all project pages/46.webp";
+import image47 from "../assets/project pages/all project pages/47.webp";
+import image48 from "../assets/project pages/all project pages/48.webp";
+import image49 from "../assets/project pages/all project pages/49.webp";
+import image50 from "../assets/project pages/all project pages/50.webp";
+import image51 from "../assets/project pages/all project pages/51.webp";
+import image52 from "../assets/project pages/all project pages/52.webp";
+import image53 from "../assets/project pages/all project pages/53.webp";
+import image54 from "../assets/project pages/all project pages/54.webp";
+import image55 from "../assets/project pages/all project pages/55.webp";
+import image56 from "../assets/project pages/all project pages/56.webp";
+import image57 from "../assets/project pages/all project pages/57.webp";
+import image58 from "../assets/project pages/all project pages/58.webp";
+import image59 from "../assets/project pages/all project pages/59.webp";
+import image60 from "../assets/project pages/all project pages/60.webp";
+import image61 from "../assets/project pages/all project pages/61.webp";
+import image62 from "../assets/project pages/all project pages/62.webp";
+import image63 from "../assets/project pages/all project pages/63.webp";
+import image64 from "../assets/project pages/all project pages/64.webp";
+import image65 from "../assets/project pages/all project pages/65.webp";
+import image66 from "../assets/project pages/all project pages/66.webp";
+import image67 from "../assets/project pages/all project pages/67.webp";
+import image68 from "../assets/project pages/all project pages/68.webp";
+import image69 from "../assets/project pages/all project pages/69.webp";
+import image70 from "../assets/project pages/all project pages/70.webp";
+import image71 from "../assets/project pages/all project pages/71.webp";
+import image72 from "../assets/project pages/all project pages/72.webp";
+import image73 from "../assets/project pages/all project pages/73.webp";
+import image74 from "../assets/project pages/all project pages/74.webp";
+import image75 from "../assets/project pages/all project pages/75.webp";
+import image76 from "../assets/project pages/all project pages/76.webp";
+import image77 from "../assets/project pages/all project pages/77.webp";
+import image78 from "../assets/project pages/all project pages/78.webp";
+import image79 from "../assets/project pages/all project pages/79.webp";
+import image80 from "../assets/project pages/all project pages/80.webp";
+import image81 from "../assets/project pages/all project pages/81.webp";
+import image82 from "../assets/project pages/all project pages/82.webp";
+import image83 from "../assets/project pages/all project pages/83.webp";
+import image84 from "../assets/project pages/all project pages/84.webp";
+import image85 from "../assets/project pages/all project pages/85.webp";
+import image86 from "../assets/project pages/all project pages/86.webp";
+import image87 from "../assets/project pages/all project pages/87.webp";
+import image88 from "../assets/project pages/all project pages/88.webp";
+import image89 from "../assets/project pages/all project pages/89.webp";
 
 import image90 from "../assets/project pages/all project pages/90.webp";
 import image91 from "../assets/project pages/all project pages/91.webp";
@@ -143,7 +143,7 @@ export const projects = [
         image103,
         image104,
         image105,
-        image106
+        image106,
     ],
   },
   {
@@ -191,11 +191,6 @@ export const projects = [
     link:"https://www.linkedin.com/in/vikrant-kumar-54712119b/",
     video : coordinateWarVideo,
     images: [
-        image26,
-        image27,
-        image28,
-        image29,
-        image30,
         image31,
         image32,
         image33,
@@ -205,6 +200,12 @@ export const projects = [
         image37,
         image38,
         image39,
+        image40,
+        image41,
+        image42,
+        image43,
+        image44,
+        image45,
     ],
   },
   {
@@ -217,11 +218,6 @@ export const projects = [
     creator: "Sahitya Kashyap",
     cocreator: "",
     images: [
-        image41,
-        image42,
-        image43,
-        image44,
-        image45,
         image46,
         image47,
         image48,
@@ -235,7 +231,16 @@ export const projects = [
         image56,
         image57,
         image58,
-        image59, 
+        image59,
+        image60,
+        image61,
+        image62,
+        image63,
+        image64,
+        // image65,
+        // image66,
+        // image67,
+        // image68,
     ],
   },
   {
@@ -248,22 +253,27 @@ export const projects = [
     creator: "Sahitya Kashyap",
     cocreator: "",
     images: [
-        image60,
-        image61,
-        image62,
-        image63,
-        image64,
-        image65,
-        image66,
-        image67,
-        image68,
         image69,
         image70,
         image71,
         image72,
         image73,
         image74,
-        image75,  
+        image75,
+        image76,
+        image77,
+        image78,
+        image79,
+        image80,
+        image81,
+        image82,
+        image83,
+        // image84,
+        // image85,
+        // image86,
+        // image87,
+        // image88,
+        // image89, 
     ],
   },
   {

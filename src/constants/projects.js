@@ -105,11 +105,11 @@ import image106 from "../assets/project pages/all project pages/106.webp";
 
 
 /Watch/
-import image76 from "../assets/project pages/watch/a.png";
-import image77 from "../assets/project pages/watch/b.png";
-import image78 from "../assets/project pages/watch/c.png";
-import image79 from "../assets/project pages/watch/d.png";
-import image80 from "../assets/project pages/watch/e.png";
+import image1011 from "../assets/project pages/watch/a.png";
+import image1021 from "../assets/project pages/watch/b.png";
+import image1031 from "../assets/project pages/watch/c.png";
+import image1041 from "../assets/project pages/watch/d.png";
+import image1051 from "../assets/project pages/watch/e.png";
 import watchVideo from "../assets/video/Promo.mp4"
 import coordinateWarVideo from "../assets/video/webbyToysCoordinateWars.mp4"
 
@@ -237,10 +237,6 @@ export const projects = [
         image62,
         image63,
         image64,
-        // image65,
-        // image66,
-        // image67,
-        // image68,
     ],
   },
   {
@@ -268,12 +264,6 @@ export const projects = [
         image81,
         image82,
         image83,
-        // image84,
-        // image85,
-        // image86,
-        // image87,
-        // image88,
-        // image89, 
     ],
   },
   {
@@ -286,11 +276,11 @@ export const projects = [
     creator: "Sahitya Kashyap",
     cocreator: "",
     images: [
-        image76,
-        image77,
-        image78,
-        image79,
-        image80,
+        image1011,
+        image1021,
+        image1031,
+        image1041,
+        image1051,
     ],
   },
   

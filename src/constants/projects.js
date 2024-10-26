@@ -107,7 +107,7 @@ export const projects = [
     title: "Headphones CMF",
     subtitle: "Industrial Design Project",
     type: "Personal Project",
-    duration: "4 Weeks",
+    duration: "4 Days",
     date: "July 2024",
     creator: "Sahitya Kashyap",
     cocreator: "",

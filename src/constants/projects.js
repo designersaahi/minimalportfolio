@@ -69,6 +69,21 @@ import image72 from "../assets/project pages/all project pages/72.png";
 import image73 from "../assets/project pages/all project pages/73.png";
 import image74 from "../assets/project pages/all project pages/74.png";
 import image75 from "../assets/project pages/all project pages/75.png";
+import image76 from "../assets/project pages/all project pages/76.png";
+import image77 from "../assets/project pages/all project pages/77.png";
+import image78 from "../assets/project pages/all project pages/78.png";
+import image79 from "../assets/project pages/all project pages/79.png";
+import image80 from "../assets/project pages/all project pages/80.png";
+import image81 from "../assets/project pages/all project pages/81.png";
+import image82 from "../assets/project pages/all project pages/82.png";
+import image83 from "../assets/project pages/all project pages/83.png";
+import image84 from "../assets/project pages/all project pages/84.png";
+import image85 from "../assets/project pages/all project pages/85.png";
+import image86 from "../assets/project pages/all project pages/86.png";
+import image87 from "../assets/project pages/all project pages/87.png";
+import image88 from "../assets/project pages/all project pages/88.png";
+import image89 from "../assets/project pages/all project pages/89.png";
+
 import image90 from "../assets/project pages/all project pages/90.webp";
 import image91 from "../assets/project pages/all project pages/91.webp";
 import image92 from "../assets/project pages/all project pages/92.webp";
@@ -108,7 +123,7 @@ export const projects = [
     subtitle: "Industrial Design Project",
     type: "Personal Project",
     duration: "4 Days",
-    date: "July 2024",
+    date: "October 2024",
     creator: "Sahitya Kashyap",
     cocreator: "",
     images: [

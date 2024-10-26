@@ -75,7 +75,7 @@ const Project = () => {
         <title>{projectTitle} | Work</title>
         <meta name="description" content="Welcome to the portfolio of Sahitya Kashyap." />
       </Helmet>
-      <div className="w-full mx-auto lg:px-20 mb-2">
+      <div className="w-full mx-auto lg:px-24 mb-2">
         <img className="mx-auto lg:w-[95vw]" src={images?.[0]} alt="img" />
       </div>
    
@@ -100,7 +100,7 @@ const Project = () => {
           </CardContent>
         </Card>
         {/* images container */}
-        <div>
+        <div className="space-y-2">
           {(images.slice(1)).map((image, index) => (
              <img
              key={index}

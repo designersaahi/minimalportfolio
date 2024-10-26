@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import headphones from "../../assets/images/thumbnails/headphones.png";
 import gluegun from "../../assets/images/thumbnails/Thumbnail.png";
 import vases from "../../assets/images/thumbnails/fam.png";
 import tapedispenser from "../../assets/images/thumbnails/Final IDea.png";
@@ -11,34 +12,41 @@ import { Helmet } from 'react-helmet-async';
 const products = [
   {
     id: 1,
+    name: "Headphones CMF",
+    description: "ID Project",
+    color: "White/Silver",
+    imageUrl: headphones
+  },
+  {
+    id: 2,
     name: "Joseph Joseph Glue Gun",
     description: "ID Project",
     color: "White/Silver",
     imageUrl: gluegun
   },
   {
-    id: 2,
+    id: 3,
     name: "Coordinate War",
     description: "Toy Project",
     color: "White/Silver",
     imageUrl: toy
   },
   {
-    id: 3,
+    id: 4,
     name: "MOODI Lamp",
     description: "Skill Project",
     color: "Silver/White",
     imageUrl: lamp
   },
   {
-    id: 4,
+    id: 5,
     name: "Scotch Tape Dispenser",
     description: "ID Project",
     color: "White/Navy",
     imageUrl: tapedispenser
   },
   {
-    id: 5,
+    id: 6,
     name: "Titan Watch",
     description: " ID Project",
     color: "White",

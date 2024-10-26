@@ -69,6 +69,25 @@ import image72 from "../assets/project pages/all project pages/72.png";
 import image73 from "../assets/project pages/all project pages/73.png";
 import image74 from "../assets/project pages/all project pages/74.png";
 import image75 from "../assets/project pages/all project pages/75.png";
+import image90 from "../assets/project pages/all project pages/90.webp";
+import image91 from "../assets/project pages/all project pages/91.webp";
+import image92 from "../assets/project pages/all project pages/92.webp";
+import image93 from "../assets/project pages/all project pages/93.webp";
+import image94 from "../assets/project pages/all project pages/94.webp";
+import image95 from "../assets/project pages/all project pages/95.webp";
+import image96 from "../assets/project pages/all project pages/96.webp";
+import image97 from "../assets/project pages/all project pages/97.webp";
+import image98 from "../assets/project pages/all project pages/98.webp";
+import image99 from "../assets/project pages/all project pages/99.webp";
+import image100 from "../assets/project pages/all project pages/100.webp";
+import image101 from "../assets/project pages/all project pages/101.webp";
+import image102 from "../assets/project pages/all project pages/102.webp";
+import image103 from "../assets/project pages/all project pages/103.webp";
+import image104 from "../assets/project pages/all project pages/104.webp";
+import image105 from "../assets/project pages/all project pages/105.webp";
+import image106 from "../assets/project pages/all project pages/106.webp";
+
+
 
 /Watch/
 import image76 from "../assets/project pages/watch/a.png";
@@ -85,6 +104,35 @@ import coordinateWarVideo from "../assets/video/webbyToysCoordinateWars.mp4"
 export const projects = [
   {
     id: 1,
+    title: "Headphones CMF",
+    subtitle: "Industrial Design Project",
+    type: "Personal Project",
+    duration: "4 Weeks",
+    date: "July 2024",
+    creator: "Sahitya Kashyap",
+    cocreator: "",
+    images: [
+        image90,
+        image91,
+        image92,
+        image93,
+        image94,
+        image95,
+        image96,
+        image97,
+        image98,
+        image99,
+        image100,
+        image101,
+        image102,
+        image103,
+        image104,
+        image105,
+        image106
+    ],
+  },
+  {
+    id: 2,
     title: "Joseph Joseph Glue Gun",
     subtitle: "Industrial Design Project",
     type: "Personal Project",
@@ -117,7 +165,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Coordinate War",
     subtitle: "Toy Design Project",
     type: "Internship Project",
@@ -145,7 +193,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "MOODI Lamp",
     subtitle: "Skill Demonstration Project",
     type: "Skilling Project",
@@ -176,7 +224,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Scotch Tape Dispenser",
     subtitle: "Industrial Design Project",
     type: "Personal Project",
@@ -204,7 +252,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Titan Watch",
     subtitle: "Industrial Design Project",
     type: "Personal Project",

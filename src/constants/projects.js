@@ -154,7 +154,8 @@ export const projects = [
     duration: "4 Weeks",
     date: "July 2024",
     creator: "Sahitya Kashyap",
-    cocreator: "",
+    cocreator: "Published on Yanko Design",
+    link:"https://www.yankodesign.com/2024/10/05/glue-gun-concept-gives-the-crafting-tool-a-modern-and-ergonomic-makeover/",
     images: [
         image5,
         image6,

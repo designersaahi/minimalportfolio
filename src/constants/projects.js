@@ -102,15 +102,33 @@ import image104 from "../assets/project pages/all project pages/104.webp";
 import image105 from "../assets/project pages/all project pages/105.webp";
 import image106 from "../assets/project pages/all project pages/106.webp";
 
+import image111 from "../assets/project pages/all project pages/111.webp";
+import image112 from "../assets/project pages/all project pages/112.webp";
+import image113 from "../assets/project pages/all project pages/113.webp";
+import image114 from "../assets/project pages/all project pages/114.webp";
+import image115 from "../assets/project pages/all project pages/115.webp";
+import image116 from "../assets/project pages/all project pages/116.webp";
+import image117 from "../assets/project pages/all project pages/117.webp";
+import image118 from "../assets/project pages/all project pages/118.webp";
+import image119 from "../assets/project pages/all project pages/119.webp";
+import image120 from "../assets/project pages/all project pages/120.webp";
+import image121 from "../assets/project pages/all project pages/121.webp";
+import image122 from "../assets/project pages/all project pages/122.webp";
+import image123 from "../assets/project pages/all project pages/123.webp";
+import image124 from "../assets/project pages/all project pages/124.webp";
+import image125 from "../assets/project pages/all project pages/125.webp";
+import image126 from "../assets/project pages/all project pages/126.webp";
+import image127 from "../assets/project pages/all project pages/127.webp";
+import image128 from "../assets/project pages/all project pages/128.webp";
+import image129 from "../assets/project pages/all project pages/129.webp";
+import image130 from "../assets/project pages/all project pages/130.webp";
+import image131 from "../assets/project pages/all project pages/131.webp";
+import image132 from "../assets/project pages/all project pages/132.webp";
+import image133 from "../assets/project pages/all project pages/133.webp";
+import image134 from "../assets/project pages/all project pages/134.webp";
+import image135 from "../assets/project pages/all project pages/135.webp";
 
 
-/Watch/
-import image1011 from "../assets/project pages/watch/a.png";
-import image1021 from "../assets/project pages/watch/b.png";
-import image1031 from "../assets/project pages/watch/c.png";
-import image1041 from "../assets/project pages/watch/d.png";
-import image1051 from "../assets/project pages/watch/e.png";
-import watchVideo from "../assets/video/Promo.mp4"
 import coordinateWarVideo from "../assets/video/webbyToysCoordinateWars.mp4"
 
 
@@ -119,10 +137,48 @@ import coordinateWarVideo from "../assets/video/webbyToysCoordinateWars.mp4"
 export const projects = [
   {
     id: 1,
+    title: "Earphones CMFT",
+    subtitle: "Industrial Design Project",
+    type: "Personal Project",
+    duration: "5 Days",
+    date: "November 2024",
+    creator: "Sahitya Kashyap",
+    cocreator: "",
+    images: [
+      image111,
+      image112,
+      image113,
+      image114,
+      image115,
+      image116,
+      image117,
+      image118,
+      image119,
+      image120,
+      image121,
+      image122,
+      image123,
+      image124,
+      image125,
+      image126,
+      image127,
+      image128,
+      image129,
+      image130,
+      image131,
+      image132,
+      image133,
+      image134,
+      image135,      
+    ],
+  },
+
+  {
+    id: 2,
     title: "Headphones CMF",
     subtitle: "Industrial Design Project",
     type: "Personal Project",
-    duration: "4 Days",
+    duration: "3 Days",
     date: "October 2024",
     creator: "Sahitya Kashyap",
     cocreator: "",
@@ -147,7 +203,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Joseph Joseph Glue Gun",
     subtitle: "Industrial Design Project",
     type: "Personal Project",
@@ -181,7 +237,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Coordinate War",
     subtitle: "Toy Design Project",
     type: "Internship Project",
@@ -209,7 +265,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "MOODI Lamp",
     subtitle: "Skill Demonstration Project",
     type: "Skilling Project",
@@ -240,7 +296,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Scotch Tape Dispenser",
     subtitle: "Industrial Design Project",
     type: "Personal Project",
@@ -266,24 +322,6 @@ export const projects = [
         image83,
     ],
   },
-  {
-    id: 6,
-    title: "Titan Watch",
-    subtitle: "Industrial Design Project",
-    type: "Personal Project",
-    duration: "10 Days",
-    date: "Feb 2024",
-    creator: "Sahitya Kashyap",
-    cocreator: "",
-    images: [
-        image1011,
-        image1021,
-        image1031,
-        image1041,
-        image1051,
-    ],
-  },
-  
 
  
 ];

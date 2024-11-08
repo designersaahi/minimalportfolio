@@ -81,7 +81,7 @@ const About = () => {
               <p>
                 Offsite Pro is an online program disrupting industrial design
                 education and offers a real world view of the design profession
-                through the instruction of industry leaders.
+                through the instruction of industry leaders from around the world.
               </p>
             </div>
             <div className="mb-4">

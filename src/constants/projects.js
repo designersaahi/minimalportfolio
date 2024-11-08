@@ -234,6 +234,11 @@ export const projects = [
         image23,
         image24,
         image25,
+        image26,
+        image27,
+        image28,
+        image29,
+        image30,
     ],
   },
   {

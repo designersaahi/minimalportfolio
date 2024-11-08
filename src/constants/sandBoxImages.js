@@ -39,7 +39,6 @@ export const sandBoxImages = [
   image6,
   image25,
   image4,
-  image12,
   image13,
   image14,
   image15,

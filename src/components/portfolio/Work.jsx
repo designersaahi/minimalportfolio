@@ -1,12 +1,11 @@
 import React, { useEffect, useRef } from 'react';
-import headphones from "../../assets/images/thumbnails/headphones.png";
-import earphones from "../../assets/images/thumbnails/earphones.png";
-import gluegun from "../../assets/images/thumbnails/Thumbnail.png";
-import vases from "../../assets/images/thumbnails/fam.png";
-import tapedispenser from "../../assets/images/thumbnails/Final IDea.png";
-import toy from "../../assets/images/thumbnails/Hero.png";
-import watch from "../../assets/images/thumbnails/Hero1.png";
-import lamp from "../../assets/images/thumbnails/Cover Thumnail.png";
+import headphones from "../../assets/images/thumbnails/headphones.webp";
+import earphones from "../../assets/images/thumbnails/earphones.webp";
+import gluegun from "../../assets/images/thumbnails/Thumbnail.webp";
+import vases from "../../assets/images/thumbnails/fam.webp";
+import tapedispenser from "../../assets/images/thumbnails/Final IDea.webp";
+import toy from "../../assets/images/thumbnails/Hero.webp";
+import lamp from "../../assets/images/thumbnails/Cover Thumnail.webp";
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import image1 from "../../assets/images/thumbnails/Sahitya.jpg";
+import image1 from "../../assets/images/thumbnails/Sahitya.webp";
 import { Helmet } from "react-helmet-async";
 
 const About = () => {

@@ -12,11 +12,12 @@ import { Helmet } from 'react-helmet-async';
 const products = [
   {
     id: 1,
-    name: "Earphones CMFT",
-    description: "Color, Material, Finish & Texture",
+    name: "Joseph Joseph Glue Gun",
+    description: "ID Project",
     color: "White/Silver",
-    imageUrl: earphones
+    imageUrl: gluegun
   },
+
   {
     id: 2,
     name: "Headphones CMF",
@@ -24,13 +25,15 @@ const products = [
     color: "White/Silver",
     imageUrl: headphones
   },
+
   {
     id: 3,
-    name: "Joseph Joseph Glue Gun",
-    description: "ID Project",
+    name: "Earphones CMFT",
+    description: "Color, Material, Finish & Texture",
     color: "White/Silver",
-    imageUrl: gluegun
+    imageUrl: earphones
   },
+  
   {
     id: 4,
     name: "Coordinate War",
@@ -38,6 +41,7 @@ const products = [
     color: "White/Silver",
     imageUrl: toy
   },
+
   {
     id: 5,
     name: "MOODI Lamp",
@@ -45,6 +49,7 @@ const products = [
     color: "Silver/White",
     imageUrl: lamp
   },
+  
   {
     id: 6,
     name: "Scotch Tape Dispenser",

@@ -24,6 +24,8 @@ import image24 from "../assets/project pages/Extra/Advance textures.16.webp";
 import image25 from "../assets/project pages/Extra/watch1.webp";
 import image26 from "../assets/project pages/Extra/watch2.webp";
 import image27 from "../assets/project pages/Extra/watch3.webp";
+import image28 from "../assets/project pages/Extra/handsketches.webp";
+import image29 from "../assets/project pages/Extra/handsketches1.webp";
 
 
 export const sandBoxImages = [
@@ -35,6 +37,7 @@ export const sandBoxImages = [
   image7,
   image8,
   image9,
+  image28,
   image11,
   image6,
   image25,
@@ -44,6 +47,7 @@ export const sandBoxImages = [
   image15,
   image19,
   image26,
+  image29,
   image1,
   image20,
   image18,

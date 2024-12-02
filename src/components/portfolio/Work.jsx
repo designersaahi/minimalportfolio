@@ -28,8 +28,8 @@ const products = [
 
   {
     id: 3,
-    name: "Earphones CMFT",
-    description: "Color, Material, Finish & Texture",
+    name: "RetroFuturism Watch",
+    description: "ID with CMF",
     color: "White/Silver",
     imageUrl: earphones
   },
